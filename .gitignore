@@ -1,0 +1,7 @@
+node_modules/
+server/node_modules/
+server/db/pikwo.db
+server/db/pikwo.db-wal
+server/db/pikwo.db-shm
+server/.env
+*.log

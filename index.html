@@ -1,0 +1,1075 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>PikiWO - Magazin Online de Haine pentru Copii</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+
+<div class="navbar">
+
+<div class="navbar-container">
+
+<a href="#"
+class="logo"
+onclick="showHome()">
+
+PikiWO
+
+</a>
+
+<div class="nav-search">
+
+<input
+type="text"
+id="searchNav"
+placeholder="Caută produse..."
+onkeyup="searchProduct()">
+
+</div>
+
+<div class="nav-icons">
+
+<button
+class="icon-btn"
+onclick="openFavorites()"
+title="Favorite">
+
+❤️
+
+<span
+id="favCount"
+class="badge">
+
+0
+
+</span>
+
+</button>
+
+<button
+class="icon-btn"
+onclick="openCart()"
+title="Coș">
+
+🛒
+
+<span
+id="cartCount"
+class="badge">
+
+0
+
+</span>
+
+</button>
+
+<div
+class="user-nav-wrap"
+id="userNavWrap"
+style="display:none;">
+
+<span
+id="username"
+class="user-greeting">
+
+</span>
+
+<div class="user-menu-host">
+
+<button
+type="button"
+class="user-avatar"
+id="userAvatarBtn"
+onclick="event.stopPropagation(); toggleUserMenu();"
+aria-expanded="false"
+aria-haspopup="true"
+title="Contul meu">
+
+?
+
+</button>
+
+<div
+class="user-menu-dropdown"
+id="userMenuDropdown"
+style="display:none;"
+role="menu">
+
+<div
+class="user-menu-name"
+id="userMenuName">
+
+</div>
+
+<p
+class="user-menu-email"
+id="userMenuEmail">
+
+</p>
+
+<button
+type="button"
+class="user-menu-admin"
+id="adminMenuBtn"
+role="menuitem"
+style="display:none;"
+onclick="showAdminPanel()">
+
+Panou admin
+
+</button>
+
+<button
+type="button"
+class="user-menu-logout"
+role="menuitem"
+onclick="logout()">
+
+Ieșire din cont
+
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</header>
+
+<!-- LOGIN / REGISTER -->
+
+<div
+id="loginSection"
+class="login-modal">
+
+<div class="login-container">
+
+<!-- REGISTER -->
+
+<div
+class="login-card"
+id="registerCard">
+
+<h1>PikiWO</h1>
+
+<p>
+Creează un cont nou
+</p>
+
+<form
+novalidate
+onsubmit="return onRegisterSubmit(event);">
+
+<input
+type="text"
+id="registerFullName"
+placeholder="Nume complet"
+required>
+
+<input
+type="email"
+id="registerEmail"
+placeholder="Email"
+required>
+
+<input
+type="password"
+id="registerPass"
+placeholder="Parolă"
+required>
+
+<p class="register-password-hint">
+
+Parola trebuie să aibă
+<strong>minim 8 caractere</strong>,
+cel puțin
+<strong>o literă mare</strong>
+(A–Z, inclusiv Ă, Â, Î, Ș, Ț)
+și cel puțin
+<strong>un simbol</strong>
+(ex.: ! @ # * _ . ?).
+
+</p>
+
+<button
+type="submit"
+class="btn-login">
+
+Înregistrare
+
+</button>
+
+</form>
+
+<p style="margin-top:15px;">
+
+Ai deja cont?
+
+<a
+href="#"
+onclick="showLogin()">
+
+Conectează-te
+
+</a>
+
+</p>
+
+</div>
+
+<!-- LOGIN -->
+
+<div
+class="login-card"
+id="loginCard"
+style="display:none;">
+
+<h1>PikiWO</h1>
+
+<p>
+Conectează-te în cont
+</p>
+
+<form
+novalidate
+onsubmit="return onLoginSubmit(event);">
+
+<input
+type="email"
+id="loginEmail"
+placeholder="Email"
+required>
+
+<input
+type="password"
+id="pass"
+placeholder="Parolă"
+required>
+
+<button
+type="submit"
+class="btn-login">
+
+Conectare
+
+</button>
+
+</form>
+
+<p style="margin-top:15px;">
+
+Nu ai cont?
+
+<a
+href="#"
+onclick="showRegister()">
+
+Înregistrează-te
+
+</a>
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- MAIN -->
+
+<main class="main-content">
+
+<!-- HOME -->
+
+<section
+id="homeSection"
+class="section hero-section"
+style="display:none;">
+
+<div class="hero-content">
+
+<h1>
+Bine ați venit la PikiWO
+</h1>
+
+<p>
+Cea mai mare colecție de haine pentru copii
+</p>
+
+<div class="hero-buttons">
+
+<button
+class="btn-primary"
+onclick="showProducts()">
+
+Vezi Colecția
+
+</button>
+
+<button
+class="btn-secondary"
+onclick="showCategory('Bebelusi')">
+
+Nou la Noi
+
+</button>
+
+</div>
+
+</div>
+
+<div class="hero-features">
+
+<div class="feature">
+
+<span class="feature-icon">
+✓
+</span>
+
+<h3>
+Calitate Premium
+</h3>
+
+<p>
+Materiale sigure pentru copii
+</p>
+
+</div>
+
+<div class="feature">
+
+<span class="feature-icon">
+🚚
+</span>
+
+<h3>
+Livrare Rapidă
+</h3>
+
+<p>
+Livrare în toată țara
+</p>
+
+</div>
+
+<div class="feature">
+
+<span class="feature-icon">
+💳
+</span>
+
+<h3>
+Plată Sigură
+</h3>
+
+<p>
+Card, transfer și ramburs
+</p>
+
+</div>
+
+<div class="feature">
+
+<span class="feature-icon">
+🔄
+</span>
+
+<h3>
+Retur Gratuit
+</h3>
+
+<p>
+Retur gratuit 30 zile
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- PRODUCTS -->
+
+<section
+id="productsSection"
+class="section"
+style="display:none;">
+
+<div class="products-header">
+
+<h2>
+Colecția Noastră
+</h2>
+
+<div class="filters">
+
+<button
+type="button"
+class="filter-btn active"
+data-cat="toate"
+onclick="showCategory('toate')">
+
+Toate
+
+</button>
+
+<button
+type="button"
+class="filter-btn"
+data-cat="Fete"
+onclick="showCategory('Fete')">
+
+Pentru Fete
+
+</button>
+
+<button
+type="button"
+class="filter-btn"
+data-cat="Baieti"
+onclick="showCategory('Baieti')">
+
+Pentru Băieți
+
+</button>
+
+<button
+type="button"
+class="filter-btn"
+data-cat="Bebelusi"
+onclick="showCategory('Bebelusi')">
+
+Bebeluși
+
+</button>
+
+<button
+type="button"
+class="filter-btn"
+data-cat="Accesorii"
+onclick="showCategory('Accesorii')">
+
+Accesorii
+
+</button>
+
+</div>
+
+</div>
+
+<div
+id="products"
+class="products-grid">
+
+</div>
+
+</section>
+
+<!-- CART -->
+
+<section
+id="cartSection"
+class="section"
+style="display:none;">
+
+<div class="section-title-row">
+
+<button
+type="button"
+class="section-back-btn"
+onclick="showProducts()"
+title="Înapoi la produse"
+aria-label="Înapoi la produse">
+
+←
+
+</button>
+
+<h2>
+Coșul tău
+</h2>
+
+</div>
+
+<div class="cart-container">
+
+<div
+id="cartItems"
+class="cart-items">
+
+</div>
+
+<div class="cart-summary">
+
+<h3>
+Rezumat
+</h3>
+
+<div class="summary-row">
+
+<span>
+Subtotal:
+</span>
+
+<span id="subtotalPrice">
+0
+</span>
+
+lei
+
+</div>
+
+<div class="summary-row">
+
+<span>
+Transport:
+</span>
+
+<span id="shippingPrice">
+Gratuit
+</span>
+
+</div>
+
+<div class="summary-row total-row">
+
+<span>
+Total:
+</span>
+
+<span id="totalPrice">
+0
+</span>
+
+lei
+
+</div>
+
+<button
+class="btn-primary"
+onclick="proceedToCheckout()">
+
+Continuă la Plată
+
+</button>
+
+<button
+class="btn-secondary"
+onclick="showProducts()">
+
+Continuă Cumpărăturile
+
+</button>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- CHECKOUT -->
+
+<section
+id="checkoutSection"
+class="section"
+style="display:none;">
+
+<h2>
+Finalizare Comandă
+</h2>
+
+<div class="checkout-container">
+
+<div class="checkout-form">
+
+<h3>
+Date de Livrare
+</h3>
+
+<input
+type="text"
+id="firstName"
+placeholder="Prenume"
+class="input-field">
+
+<input
+type="text"
+id="lastName"
+placeholder="Nume"
+class="input-field">
+
+<input
+type="email"
+id="email"
+placeholder="Email"
+class="input-field">
+
+<input
+type="tel"
+id="phone"
+placeholder="Telefon"
+class="input-field">
+
+<input
+type="text"
+id="address"
+placeholder="Adresă"
+class="input-field">
+
+<input
+type="text"
+id="city"
+placeholder="Oraș"
+class="input-field">
+
+<input
+type="text"
+id="zipcode"
+placeholder="Cod poștal"
+class="input-field">
+
+<h3>
+Metodă de Plată
+</h3>
+
+<div class="payment-options">
+
+<label>
+
+<input
+type="radio"
+name="payment"
+value="card"
+checked>
+
+Card Bancar
+
+</label>
+
+<label>
+
+<input
+type="radio"
+name="payment"
+value="transfer">
+
+Transfer Bancar
+
+</label>
+
+<label>
+
+<input
+type="radio"
+name="payment"
+value="cash">
+
+Ramburs
+
+</label>
+
+</div>
+
+<button
+class="btn-primary"
+onclick="processCheckout()">
+
+Plasează Comanda
+
+</button>
+
+<button
+class="btn-secondary"
+onclick="openCart()">
+
+Înapoi la Coș
+
+</button>
+
+</div>
+
+<div class="checkout-summary">
+
+<h3>
+Rezumat Comandă
+</h3>
+
+<div id="checkoutItems">
+
+</div>
+
+<div class="summary-total">
+
+<p>
+Subtotal:
+<span id="subtotal">
+0
+</span>
+lei
+</p>
+
+<p>
+Livrare:
+<span id="shipping">
+0
+</span>
+lei
+</p>
+
+<hr>
+
+<p class="total">
+
+Total:
+<span id="checkoutTotal">
+0
+</span>
+lei
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- FAVORITES -->
+
+<section
+id="favoritesSection"
+class="section"
+style="display:none;">
+
+<div class="section-title-row">
+
+<button
+type="button"
+class="section-back-btn"
+onclick="showProducts()"
+title="Înapoi la produse"
+aria-label="Înapoi la produse">
+
+←
+
+</button>
+
+<h2>
+Colecția Ta de Favorite
+</h2>
+
+</div>
+
+<div
+id="favoriteItems"
+class="products-grid">
+
+</div>
+
+</section>
+
+<!-- ADMIN -->
+
+<section
+id="adminSection"
+class="section admin-section"
+style="display:none;">
+
+<div class="section-title-row">
+
+<button
+type="button"
+class="section-back-btn"
+onclick="showHome()"
+title="Inapoi"
+aria-label="Inapoi">
+
+←
+
+</button>
+
+<h2>
+Administrare PikiWO
+</h2>
+
+</div>
+
+<div class="admin-stats">
+
+<div class="admin-stat">
+<span id="adminUsersCount">0</span>
+<p>Utilizatori</p>
+</div>
+
+<div class="admin-stat">
+<span id="adminProductsCount">0</span>
+<p>Produse</p>
+</div>
+
+<div class="admin-stat">
+<span id="adminStockCount">0</span>
+<p>Stoc total</p>
+</div>
+
+</div>
+
+<div class="admin-layout">
+
+<div class="admin-panel">
+
+<h3>
+Utilizatori
+</h3>
+
+<div class="admin-table-wrap">
+
+<table class="admin-table">
+<thead>
+<tr>
+<th>ID</th>
+<th>Nume</th>
+<th>Email</th>
+<th>Rol</th>
+</tr>
+</thead>
+<tbody id="adminUsersBody"></tbody>
+</table>
+
+</div>
+
+</div>
+
+<div class="admin-panel">
+
+<h3>
+Adauga sau editeaza haina
+</h3>
+
+<form
+id="adminProductForm"
+class="admin-form"
+onsubmit="return adminSaveProduct(event);">
+
+<input type="hidden" id="adminProductId">
+
+<input id="adminProductName" placeholder="Nume produs" required>
+
+<select id="adminProductCategory" required>
+<option value="Fete">Fete</option>
+<option value="Baieti">Baieti</option>
+<option value="Bebelusi">Bebelusi</option>
+<option value="Accesorii">Accesorii</option>
+</select>
+
+<input id="adminProductColor" placeholder="Culoare principala">
+<input id="adminProductColors" placeholder="Culori, separate prin virgula">
+<input id="adminProductSizes" placeholder="Marimi, separate prin virgula">
+<input id="adminProductMaterial" placeholder="Material">
+<input id="adminProductSeason" placeholder="Sezon">
+<input id="adminProductPrice" type="number" step="0.01" placeholder="Pret" required>
+<input id="adminProductOldPrice" type="number" step="0.01" placeholder="Pret vechi">
+<input id="adminProductStock" type="number" placeholder="Stoc">
+<input id="adminProductSku" placeholder="SKU">
+<input id="adminProductRating" type="number" step="0.1" min="0" max="5" placeholder="Rating">
+<input id="adminProductBadges" placeholder="Etichete, separate prin virgula">
+<input id="adminProductImage" placeholder="Imagine URL">
+<input id="adminProductImageLarge" placeholder="Imagine mare URL">
+<textarea id="adminProductDescription" placeholder="Descriere scurta"></textarea>
+<textarea id="adminProductLongDescription" placeholder="Descriere lunga"></textarea>
+<textarea id="adminProductCare" placeholder="Instructiuni ingrijire"></textarea>
+<input id="adminProductSimilar" placeholder="ID produse similare, separate prin virgula">
+
+<div class="admin-form-actions">
+<button type="submit">Salveaza produs</button>
+<button type="button" onclick="adminClearProductForm()">Curata formular</button>
+</div>
+
+</form>
+
+</div>
+
+</div>
+
+<div class="admin-panel">
+
+<h3>
+Produse
+</h3>
+
+<div class="admin-table-wrap">
+
+<table class="admin-table">
+<thead>
+<tr>
+<th>ID</th>
+<th>Produs</th>
+<th>Categorie</th>
+<th>Pret</th>
+<th>Stoc</th>
+<th>Actiuni</th>
+</tr>
+</thead>
+<tbody id="adminProductsBody"></tbody>
+</table>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer class="footer">
+
+<div class="footer-content">
+
+<div class="footer-section">
+
+<h4>
+Despre PikiWO
+</h4>
+
+<p>
+Magazin online cu haine pentru copii.
+</p>
+
+</div>
+
+<div class="footer-section">
+
+<h4>
+Informații
+</h4>
+
+<ul>
+
+<li>
+<a href="#">
+Despre noi
+</a>
+</li>
+
+<li>
+<a href="#">
+Politica de confidențialitate
+</a>
+</li>
+
+<li>
+<a href="#">
+Livrare și retur
+</a>
+</li>
+
+</ul>
+
+</div>
+
+<div class="footer-section">
+
+<h4>
+Contact
+</h4>
+
+<p>
+📧 info@pikwo.ro
+</p>
+
+<p>
+📞 0123 456 789
+</p>
+
+<p>
+📍 Chișinău
+</p>
+
+</div>
+
+<div class="footer-section">
+
+<h4>
+Newsletter
+</h4>
+
+<input
+type="email"
+placeholder="Adresa email"
+id="newsletterEmail"
+class="input-field">
+
+<button
+class="btn-primary">
+
+Abonare
+
+</button>
+
+</div>
+
+</div>
+
+<div class="footer-bottom">
+
+<p>
+© 2026 PikiWO
+</p>
+
+</div>
+
+</footer>
+
+<!-- MODAL DETALII PRODUS -->
+
+<div
+id="productDetailModal"
+class="modal pd-modal"
+role="dialog"
+aria-modal="true"
+aria-labelledby="pdTitle"
+onclick="pdModalBackdropClick(event)">
+
+<div
+class="modal-content pd-modal-content"
+onclick="event.stopPropagation()">
+
+<button
+type="button"
+class="close-btn pd-close"
+onclick="closeProductDetail()"
+aria-label="Închide">
+
+×
+
+</button>
+
+<div id="productDetailBody"></div>
+
+</div>
+
+</div>
+
+<!-- JS -->
+
+<script src="script.js"></script>
+
+</body>
+</html>

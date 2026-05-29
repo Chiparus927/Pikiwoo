@@ -1,0 +1,1188 @@
+[
+  {
+    "id": 1,
+    "name": "Tricou Roz cu Fluturi",
+    "category": "Fete",
+    "color": "Roz",
+    "colors": [
+      "Roz",
+      "Alb",
+      "Corai"
+    ],
+    "sizes": [
+      "2-3 ani",
+      "4-5 ani",
+      "6-7 ani",
+      "8-9 ani"
+    ],
+    "material": "Bumbac 100%",
+    "season": "Vară",
+    "price": 45,
+    "oldPrice": 59,
+    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400",
+    "imageLarge": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=1000",
+    "rating": 4.8,
+    "description": "Tricou lejer cu imprimeu fluturi, perfect pentru zile călduroase.",
+    "longDescription": "Tricoul PikiWO cu fluturi este confecționat din bumbac certificat, respirabil și delicat pe pielea sensibilă a copiilor. Croiala relaxată permite mișcare liberă la joacă. Ideal pentru grădiniță, plimbări și activități în aer liber.",
+    "stock": 32,
+    "sku": "PKW-FT-TRC-001",
+    "badges": [
+      "Nou",
+      "Popular"
+    ],
+    "reviews": [
+      {
+        "author": "Maria P.",
+        "text": "Fiica mea îl adoră, materialul e foarte moale.",
+        "stars": 5
+      },
+      {
+        "author": "Elena D.",
+        "text": "Culori vii, se spală bine la mașină.",
+        "stars": 5
+      },
+      {
+        "author": "Andrei T.",
+        "text": "Raport calitate-preț excelent.",
+        "stars": 4
+      }
+    ],
+    "careInstructions": "Spălare la maxim 30°C, program delicat. Nu folosiți înălbitor. Uscare în aer liber; evitați uscătorul pentru a păstra forma imprimeului.",
+    "similarIds": [
+      2,
+      3,
+      8
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Rochie Elegantă",
+    "category": "Fete",
+    "color": "Mov",
+    "colors": [
+      "Mov",
+      "Bleumarin",
+      "Bordo"
+    ],
+    "sizes": [
+      "4-5 ani",
+      "6-7 ani",
+      "8-9 ani",
+      "10-12 ani"
+    ],
+    "material": "Poliester & voal",
+    "season": "Primăvară / Toamnă",
+    "price": 85,
+    "oldPrice": null,
+    "image": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=400",
+    "imageLarge": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=1000",
+    "rating": 5,
+    "description": "Rochie elegantă pentru ocazii speciale și serbări școlare.",
+    "longDescription": "Rochia combină o fustă ușoară cu bust structurat, fără elemente care deranjează. Închidere cu fermoar discret la spate. Potrivită pentru petreceri, nunți de familie sau ședințe foto.",
+    "stock": 18,
+    "sku": "PKW-FT-RCH-002",
+    "badges": [
+      "Popular"
+    ],
+    "reviews": [
+      {
+        "author": "Ioana M.",
+        "text": "Arată minunat în poze, croi impecabil.",
+        "stars": 5
+      },
+      {
+        "author": "Cristina V.",
+        "text": "Livrare rapidă, ambalaj drăguț.",
+        "stars": 5
+      }
+    ],
+    "careInstructions": "Curățare chimică recomandată sau spălare manuală la 30°C. Călcare la temperatură medie, pe dos, cu protecție pentru voal.",
+    "similarIds": [
+      1,
+      3,
+      6
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Hanorac Unicorn",
+    "category": "Fete",
+    "color": "Mov",
+    "colors": [
+      "Mov",
+      "Roz pastel",
+      "Lavandă"
+    ],
+    "sizes": [
+      "2-3 ani",
+      "4-5 ani",
+      "6-7 ani",
+      "8-9 ani",
+      "10-12 ani"
+    ],
+    "material": "Bumbac & poliester",
+    "season": "Iarnă",
+    "price": 88,
+    "oldPrice": 110,
+    "image": "https://images.unsplash.com/photo-1503944583220-4d6e1e3c15c5?w=400",
+    "imageLarge": "https://images.unsplash.com/photo-1503944583220-4d6e1e3c15c5?w=1000",
+    "rating": 4.9,
+    "description": "Hanorac călduros cu glugă și imprimeu unicorn strălucitor.",
+    "longDescription": "Interior fleece moale, glugă căptușită și buzunare tip marsupiu. Manșete elastice pentru protecție la vânt. Un model îndrăgit de copii, testat pentru siguranța imprimeurilor.",
+    "stock": 24,
+    "sku": "PKW-FT-HAN-003",
+    "badges": [
+      "Popular",
+      "Reducere"
+    ],
+    "reviews": [
+      {
+        "author": "Diana L.",
+        "text": "Foarte călduros, perfect pentru toamnă.",
+        "stars": 5
+      },
+      {
+        "author": "Paul S.",
+        "text": "Nepoata e încântată de unicorn.",
+        "stars": 5
+      }
+    ],
+    "careInstructions": "Spălare pe dos la 30°C. Nu călcați direct pe imprimeu metalizat.",
+    "similarIds": [
+      1,
+      2,
+      5
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Tricou Sport",
+    "category": "Baieti",
+    "color": "Albastru",
+    "colors": [
+      "Albastru",
+      "Negru",
+      "Verde lime"
+    ],
+    "sizes": [
+      "4-5 ani",
+      "6-7 ani",
+      "8-9 ani",
+      "10-12 ani"
+    ],
+    "material": "Bumbac & elastan",
+    "season": "Vară",
+    "price": 55,
+    "oldPrice": null,
+    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400",
+    "imageLarge": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=1000",
+    "rating": 4.7,
+    "description": "Tricou tehnic respirabil pentru sport și joacă activă.",
+    "longDescription": "Țesătură cu micro-perforații pentru evacuarea transpirației. Croială lejeră, guler rotund rezistent. Potrivit pentru orele de sport, bicicletă sau parc.",
+    "stock": 40,
+    "sku": "PKW-BT-SPT-004",
+    "badges": [
+      "Nou"
+    ],
+    "reviews": [
+      {
+        "author": "Mihai R.",
+        "text": "Băiatul îl poartă la antrenamente, rezistă bine.",
+        "stars": 5
+      },
+      {
+        "author": "George F.",
+        "text": "Mărimea corespunde tabelului.",
+        "stars": 4
+      }
+    ],
+    "careInstructions": "Spălare la 40°C cu culori asemănătoare. Nu călcați peste zonele print.",
+    "similarIds": [
+      5,
+      7,
+      1
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Jachetă Fleece",
+    "category": "Baieti",
+    "color": "Negru",
+    "colors": [
+      "Negru",
+      "Gri",
+      "Bleumarin"
+    ],
+    "sizes": [
+      "2-3 ani",
+      "4-5 ani",
+      "6-7 ani",
+      "8-9 ani",
+      "10-12 ani"
+    ],
+    "material": "Fleece poliester",
+    "season": "Iarnă",
+    "price": 120,
+    "oldPrice": 145,
+    "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400",
+    "imageLarge": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=1000",
+    "rating": 4.9,
+    "description": "Jachetă polară groasă, ideală sub geacă sau singură toamna.",
+    "longDescription": "Fleece de densitate medie-mare, fermoar YKK și protecție bărbie la guler. Ușoară și călduroasă, perfectă pentru drumeții și școală.",
+    "stock": 15,
+    "sku": "PKW-BT-FLC-005",
+    "badges": [
+      "Reducere"
+    ],
+    "reviews": [
+      {
+        "author": "Laura C.",
+        "text": "Foarte practică, se usucă rapid după spălare.",
+        "stars": 5
+      },
+      {
+        "author": "Victor N.",
+        "text": "Calitatea fermoarului e bună.",
+        "stars": 5
+      }
+    ],
+    "careInstructions": "Spălare la 30°C, program sintetice. Nu călcați fleece-ul.",
+    "similarIds": [
+      3,
+      4,
+      7
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Căciulă și fular tricot",
+    "category": "Accesorii",
+    "color": "Bej",
+    "colors": [
+      "Bej",
+      "Roz",
+      "Gri"
+    ],
+    "sizes": [
+      "2-3 ani",
+      "4-5 ani",
+      "6-7 ani"
+    ],
+    "material": "Acrilic & lână",
+    "season": "Iarnă",
+    "price": 65,
+    "oldPrice": 79,
+    "image": "https://images.unsplash.com/photo-1576871337622-98d48d1cf531?w=400",
+    "imageLarge": "https://images.unsplash.com/photo-1576871337622-98d48d1cf531?w=1000",
+    "rating": 4.6,
+    "description": "Set coordonat căciulă + fular, tricot moale și elastic.",
+    "longDescription": "Setul completează ținutele de iarnă fără să deranjeze pe piele. Design unisex, ușor de asortat la geci și paltoane PikiWO.",
+    "stock": 28,
+    "sku": "PKW-AC-CAC-006",
+    "badges": [
+      "Nou",
+      "Reducere"
+    ],
+    "reviews": [
+      {
+        "author": "Ana B.",
+        "text": "Drăguț și cald, copilul nu îl dă jos.",
+        "stars": 5
+      }
+    ],
+    "careInstructions": "Spălare manuală sau program lână la max. 30°C. Uscare întins pe plan orizontal.",
+    "similarIds": [
+      2,
+      5,
+      8
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Pantaloni trening",
+    "category": "Baieti",
+    "color": "Gri melanj",
+    "colors": [
+      "Gri melanj",
+      "Negru",
+      "Bleumarin"
+    ],
+    "sizes": [
+      "4-5 ani",
+      "6-7 ani",
+      "8-9 ani",
+      "10-12 ani"
+    ],
+    "material": "Bumbac & poliester",
+    "season": "Primăvară / Toamnă",
+    "price": 72,
+    "oldPrice": null,
+    "image": "https://images.unsplash.com/photo-1620799140408-ed534c239b88?w=400",
+    "imageLarge": "https://images.unsplash.com/photo-1620799140408-ed534c239b88?w=1000",
+    "rating": 4.8,
+    "description": "Pantaloni sport cu bandă laterală și buzunare cu fermoar.",
+    "longDescription": "Talie elastică cu șnur reglabil (de la mărimea 6-7 ani), glezne cu manșet rib. Compoziție potrivită pentru școală și activități zilnice.",
+    "stock": 22,
+    "sku": "PKW-BT-TRN-007",
+    "badges": [
+      "Popular"
+    ],
+    "reviews": [
+      {
+        "author": "Radu P.",
+        "text": "Rezistenți la genunchi, recomand.",
+        "stars": 5
+      },
+      {
+        "author": "Oana S.",
+        "text": "Se potrivesc cu hanoracul cumpărat anterior.",
+        "stars": 5
+      }
+    ],
+    "careInstructions": "Spălare la 40°C. Închideți fermoarele înainte de spălare.",
+    "similarIds": [
+      4,
+      5,
+      3
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Set body bebe (3 buc.)",
+    "category": "Bebelusi",
+    "color": "Alb / pastel",
+    "colors": [
+      "Alb / pastel",
+      "Albastru",
+      "Roz"
+    ],
+    "sizes": [
+      "2-3 ani"
+    ],
+    "material": "Bumbac organic",
+    "season": "Vară",
+    "price": 95,
+    "oldPrice": 115,
+    "image": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=400",
+    "imageLarge": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=1000",
+    "rating": 5,
+    "description": "Set trei body-uri cu capse nickel-free, croi ergonomic.",
+    "longDescription": "Potrivit pentru bebeluși și copii mici: croi care nu strânge la scutec, etichete pe exterior pentru confort. Ambalaj cadou PikiWO.",
+    "stock": 30,
+    "sku": "PKW-BB-BDY-008",
+    "badges": [
+      "Nou",
+      "Popular",
+      "Reducere"
+    ],
+    "reviews": [
+      {
+        "author": "Carmen I.",
+        "text": "Cel mai moale set din garderoba noastră.",
+        "stars": 5
+      },
+      {
+        "author": "Florin G.",
+        "text": "Capse solide, se deschid ușor.",
+        "stars": 5
+      }
+    ],
+    "careInstructions": "Spălare la 60°C pentru igienă maximă la bebeluși. Uscare naturală.",
+    "similarIds": [
+      1,
+      6,
+      2
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Fustă plisată cu bretele",
+    "category": "Fete",
+    "color": "Bleumarin",
+    "colors": [
+      "Bleumarin",
+      "Negru",
+      "Bordo"
+    ],
+    "sizes": [
+      "4-5 ani",
+      "6-7 ani",
+      "8-9 ani",
+      "10-12 ani"
+    ],
+    "material": "Poliester reciclat",
+    "season": "Primăvară / Toamnă",
+    "price": 69,
+    "oldPrice": 89,
+    "image": "https://images.unsplash.com/photo-1518838615382-46bbf25a13a8?w=400",
+    "imageLarge": "https://images.unsplash.com/photo-1518838615382-46bbf25a13a8?w=1000",
+    "rating": 4.7,
+    "description": "Fustă lejeră, perfectă pentru școală și ieșiri.",
+    "longDescription": "Pliseuri fine, talie elastică ascunsă și bretele reglabile. Material ușor de întreținut.",
+    "stock": 26,
+    "sku": "PKW-FT-FST-009",
+    "badges": [
+      "Nou",
+      "Reducere"
+    ],
+    "reviews": [
+      {
+        "author": "Laura M.",
+        "text": "Arată foarte drăguț la serbare.",
+        "stars": 5
+      }
+    ],
+    "careInstructions": "Spălare la 30°C, pe dos. Nu călcați pliseurile direct.",
+    "similarIds": [
+      2,
+      1,
+      10
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Bluză cu fundă",
+    "category": "Fete",
+    "color": "Alb",
+    "colors": [
+      "Alb",
+      "Roz pal",
+      "Lavandă"
+    ],
+    "sizes": [
+      "2-3 ani",
+      "4-5 ani",
+      "6-7 ani",
+      "8-9 ani"
+    ],
+    "material": "Bumbac voal",
+    "season": "Vară",
+    "price": 52,
+    "oldPrice": null,
+    "image": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=400",
+    "imageLarge": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=1000",
+    "rating": 4.8,
+    "description": "Bluză aerată cu fundă detașabilă la spate.",
+    "longDescription": "Decolteu rotund, croi lejer. Funda se poate lega în fundă simplă sau cocardă.",
+    "stock": 34,
+    "sku": "PKW-FT-BLZ-010",
+    "badges": [
+      "Popular"
+    ],
+    "reviews": [
+      {
+        "author": "Elena V.",
+        "text": "Material fin, nu deranjează la piele.",
+        "stars": 5
+      }
+    ],
+    "careInstructions": "Spălare delicată 30°C. Călcare pe dos.",
+    "similarIds": [
+      1,
+      2,
+      9
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Colanți imprimeu floral",
+    "category": "Fete",
+    "color": "Negru",
+    "colors": [
+      "Negru",
+      "Gri",
+      "Bleumarin"
+    ],
+    "sizes": [
+      "2-3 ani",
+      "4-5 ani",
+      "6-7 ani",
+      "8-9 ani",
+      "10-12 ani"
+    ],
+    "material": "Bumbac & elastan",
+    "season": "Toamnă",
+    "price": 48,
+    "oldPrice": 58,
+    "image": "https://images.unsplash.com/photo-1583305727486-4455430012e0?w=400",
+    "imageLarge": "https://images.unsplash.com/photo-1583305727486-4455430012e0?w=1000",
+    "rating": 4.6,
+    "description": "Colanți elastici cu imprimeu floral discret.",
+    "longDescription": "Talie înaltă confortabilă, potriviți sub rochii sau tricouri lungi.",
+    "stock": 38,
+    "sku": "PKW-FT-COL-011",
+    "badges": [
+      "Reducere"
+    ],
+    "reviews": [
+      {
+        "author": "Monica P.",
+        "text": "Fiica îi poartă zilnic la grădiniță.",
+        "stars": 5
+      }
+    ],
+    "careInstructions": "Spălare la 40°C cu culori închise.",
+    "similarIds": [
+      10,
+      1,
+      7
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Cămașă casual în carouri",
+    "category": "Baieti",
+    "color": "Roșu",
+    "colors": [
+      "Roșu",
+      "Albastru",
+      "Verde"
+    ],
+    "sizes": [
+      "4-5 ani",
+      "6-7 ani",
+      "8-9 ani",
+      "10-12 ani"
+    ],
+    "material": "Flanel bumbac",
+    "season": "Iarnă",
+    "price": 78,
+    "oldPrice": null,
+    "image": "https://images.unsplash.com/photo-1514090451101-62e97603e216?w=400",
+    "imageLarge": "https://images.unsplash.com/photo-1514090451101-62e97603e216?w=1000",
+    "rating": 4.7,
+    "description": "Cămașă călduroasă cu nasturi din corn de plastic.",
+    "longDescription": "Model în carouri clasice, guler flexibil, ideală peste tricou sau singură.",
+    "stock": 21,
+    "sku": "PKW-BT-CAM-012",
+    "badges": [
+      "Nou"
+    ],
+    "reviews": [
+      {
+        "author": "Dan R.",
+        "text": "Arată foarte bine la școală.",
+        "stars": 5
+      }
+    ],
+    "careInstructions": "Spălare la 40°C. Călcare medie.",
+    "similarIds": [
+      4,
+      7,
+      13
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Pantaloni scurți cargo",
+    "category": "Baieti",
+    "color": "Bej",
+    "colors": [
+      "Bej",
+      "Kaki",
+      "Negru"
+    ],
+    "sizes": [
+      "4-5 ani",
+      "6-7 ani",
+      "8-9 ani",
+      "10-12 ani"
+    ],
+    "material": "Bumbac twill",
+    "season": "Vară",
+    "price": 62,
+    "oldPrice": 75,
+    "image": "https://images.unsplash.com/photo-1620799140408-ed534c239b88?w=400",
+    "imageLarge": "https://images.unsplash.com/photo-1620799140408-ed534c239b88?w=1000",
+    "rating": 4.8,
+    "description": "Șort cargo cu buzunare laterale capitonate.",
+    "longDescription": "Croială relaxată, închidere cu nasture și fermoar metalic sigilat.",
+    "stock": 29,
+    "sku": "PKW-BT-SRT-013",
+    "badges": [
+      "Popular",
+      "Reducere"
+    ],
+    "reviews": [
+      {
+        "author": "Alex T.",
+        "text": "Practice la joacă în parc.",
+        "stars": 5
+      }
+    ],
+    "careInstructions": "Spălare la 40°C. Uscare în aer.",
+    "similarIds": [
+      7,
+      4,
+      12
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Geacă de ploaie reflectorizantă",
+    "category": "Baieti",
+    "color": "Galben",
+    "colors": [
+      "Galben",
+      "Portocaliu",
+      "Verde lime"
+    ],
+    "sizes": [
+      "2-3 ani",
+      "4-5 ani",
+      "6-7 ani",
+      "8-9 ani"
+    ],
+    "material": "Poliester impermeabil",
+    "season": "Primăvară / Toamnă",
+    "price": 135,
+    "oldPrice": null,
+    "image": "https://images.unsplash.com/photo-1544022613-e87ca75a784a?w=400",
+    "imageLarge": "https://images.unsplash.com/photo-1544022613-e87ca75a784a?w=1000",
+    "rating": 4.9,
+    "description": "Geacă ușoară cu glugă și benzi reflectorizante.",
+    "longDescription": "Cusături termosudate, fermoar protejat la plouă. Vizibilitate sporită seara.",
+    "stock": 17,
+    "sku": "PKW-BT-PLA-014",
+    "badges": [
+      "Nou",
+      "Popular"
+    ],
+    "reviews": [
+      {
+        "author": "Irina C.",
+        "text": "Ușoară, copilul o poartă mereu în ghiozdan.",
+        "stars": 5
+      }
+    ],
+    "careInstructions": "Ștergere cu burete sau spălare 30°C scurtă.",
+    "similarIds": [
+      5,
+      3,
+      12
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Salopetă bebe din velur",
+    "category": "Bebelusi",
+    "color": "Crem",
+    "colors": [
+      "Crem",
+      "Roz pudră",
+      "Albastru deschis"
+    ],
+    "sizes": [
+      "2-3 ani"
+    ],
+    "material": "Bumbac velur",
+    "season": "Iarnă",
+    "price": 89,
+    "oldPrice": 105,
+    "image": "https://images.unsplash.com/photo-1519457431-44cca64a806b?w=400",
+    "imageLarge": "https://images.unsplash.com/photo-1519457431-44cca64a806b?w=1000",
+    "rating": 5,
+    "description": "Salopetă moale cu capse pe toată lungimea.",
+    "longDescription": "Mâneci și pantaloni lungi, mansete elastice. Perfectă pentru casă sau plimbare.",
+    "stock": 25,
+    "sku": "PKW-BB-SAL-015",
+    "badges": [
+      "Nou",
+      "Reducere"
+    ],
+    "reviews": [
+      {
+        "author": "Andreea N.",
+        "text": "Super moale, bebelușul doarme bine în ea.",
+        "stars": 5
+      }
+    ],
+    "careInstructions": "Spălare 40°C, program copii.",
+    "similarIds": [
+      8,
+      16,
+      1
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Pijama bumbac animăluțe",
+    "category": "Bebelusi",
+    "color": "Albastru",
+    "colors": [
+      "Albastru",
+      "Roz",
+      "Gri"
+    ],
+    "sizes": [
+      "2-3 ani",
+      "4-5 ani"
+    ],
+    "material": "Bumbac 100%",
+    "season": "Toamnă",
+    "price": 72,
+    "oldPrice": null,
+    "image": "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=400",
+    "imageLarge": "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=1000",
+    "rating": 4.9,
+    "description": "Set pijama cu bluză și pantalon elastic.",
+    "longDescription": "Imprimeu cu animăluțe, etichete pe exterior, fără cusături deranjante.",
+    "stock": 33,
+    "sku": "PKW-BB-PIJ-016",
+    "badges": [
+      "Popular"
+    ],
+    "reviews": [
+      {
+        "author": "Cristina L.",
+        "text": "Se spală perfect, culori rezistente.",
+        "stars": 5
+      }
+    ],
+    "careInstructions": "Spălare la 60°C, culori deschise separat.",
+    "similarIds": [
+      8,
+      15,
+      6
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Șosete antiderapante (set 5)",
+    "category": "Accesorii",
+    "color": "Multicolor",
+    "colors": [
+      "Multicolor",
+      "Pastel",
+      "Neon"
+    ],
+    "sizes": [
+      "2-3 ani",
+      "4-5 ani",
+      "6-7 ani"
+    ],
+    "material": "Bumbac & poliamidă",
+    "season": "Vară",
+    "price": 42,
+    "oldPrice": 55,
+    "image": "https://images.unsplash.com/photo-1583311650802-9363e4546aba?w=400",
+    "imageLarge": "https://images.unsplash.com/photo-1583311650802-9363e4546aba?w=1000",
+    "rating": 4.5,
+    "description": "Set 5 perechi cu silicon la talpă pentru aderență.",
+    "longDescription": "Potrivite pentru parchet și dale, fără elastic care strânge gamba.",
+    "stock": 50,
+    "sku": "PKW-AC-SOS-017",
+    "badges": [
+      "Reducere"
+    ],
+    "reviews": [
+      {
+        "author": "Paula D.",
+        "text": "Nu mai alunecă pe hol.",
+        "stars": 5
+      }
+    ],
+    "careInstructions": "Spălare 40°C, nu folosiți înălbitor.",
+    "similarIds": [
+      6,
+      18,
+      19
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Mănuși tricotate",
+    "category": "Accesorii",
+    "color": "Gri",
+    "colors": [
+      "Gri",
+      "Roz",
+      "Bleumarin"
+    ],
+    "sizes": [
+      "2-3 ani",
+      "4-5 ani",
+      "6-7 ani"
+    ],
+    "material": "Acrilic",
+    "season": "Iarnă",
+    "price": 38,
+    "oldPrice": null,
+    "image": "https://images.unsplash.com/photo-1576871337622-98d48d1cf531?w=400",
+    "imageLarge": "https://images.unsplash.com/photo-1576871337622-98d48d1cf531?w=1000",
+    "rating": 4.4,
+    "description": "Mănuși cu deget mare separat și elastic la încheietură.",
+    "longDescription": "Design unisex, fire moi, potrivite cu căciula din colecție.",
+    "stock": 41,
+    "sku": "PKW-AC-MAN-018",
+    "badges": [
+      "Nou"
+    ],
+    "reviews": [
+      {
+        "author": "Vlad I.",
+        "text": "Bunica a zis că sunt calde.",
+        "stars": 4
+      }
+    ],
+    "careInstructions": "Spălare manuală 30°C.",
+    "similarIds": [
+      6,
+      17,
+      19
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Bentiță elastică cu fundă",
+    "category": "Accesorii",
+    "color": "Auriu",
+    "colors": [
+      "Auriu",
+      "Argintiu",
+      "Roz"
+    ],
+    "sizes": [
+      "2-3 ani",
+      "4-5 ani",
+      "6-7 ani",
+      "8-9 ani"
+    ],
+    "material": "Satin & elastic",
+    "season": "Vară",
+    "price": 28,
+    "oldPrice": 35,
+    "image": "https://images.unsplash.com/photo-1496747611176-843222e27317?w=400",
+    "imageLarge": "https://images.unsplash.com/photo-1496747611176-843222e27317?w=1000",
+    "rating": 4.8,
+    "description": "Bentiță reglabilă pentru păr, fără metal.",
+    "longDescription": "Fundă voluminoasă fixată solid, elastic lat care nu rupe firul de păr.",
+    "stock": 60,
+    "sku": "PKW-AC-BEN-019",
+    "badges": [
+      "Popular",
+      "Reducere"
+    ],
+    "reviews": [
+      {
+        "author": "Ilinca S.",
+        "text": "Foarte drăguță la poze.",
+        "stars": 5
+      }
+    ],
+    "careInstructions": "Curățare cu prosop umed.",
+    "similarIds": [
+      17,
+      20,
+      2
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Rucsac mini grădiniță",
+    "category": "Accesorii",
+    "color": "Galben",
+    "colors": [
+      "Galben",
+      "Turcoaz",
+      "Corai"
+    ],
+    "sizes": [
+      "2-3 ani",
+      "4-5 ani"
+    ],
+    "material": "Poliester reciclat",
+    "season": "Primăvară / Toamnă",
+    "price": 115,
+    "oldPrice": null,
+    "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400",
+    "imageLarge": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=1000",
+    "rating": 4.7,
+    "description": "Rucsac ușor cu bretele căptușite și pieptar.",
+    "longDescription": "Compartiment principal cu fermoar, buzunar frontal pentru sticluță. Hrană reflectorizantă.",
+    "stock": 19,
+    "sku": "PKW-AC-RUC-020",
+    "badges": [
+      "Nou"
+    ],
+    "reviews": [
+      {
+        "author": "Mihnea B.",
+        "text": "Perfect pentru grădiniță.",
+        "stars": 5
+      }
+    ],
+    "careInstructions": "Spălare manuală sau program delicat mașină.",
+    "similarIds": [
+      17,
+      18,
+      6
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Pulover tricot cu inimi",
+    "category": "Fete",
+    "color": "Roșu",
+    "colors": [
+      "Roșu",
+      "Crem",
+      "Gri"
+    ],
+    "sizes": [
+      "2-3 ani",
+      "4-5 ani",
+      "6-7 ani",
+      "8-9 ani",
+      "10-12 ani"
+    ],
+    "material": "Acrylic & lână merinos",
+    "season": "Iarnă",
+    "price": 98,
+    "oldPrice": 120,
+    "image": "https://images.unsplash.com/photo-1476703993599-85dff21c3884?w=400",
+    "imageLarge": "https://images.unsplash.com/photo-1476703993599-85dff21c3884?w=1000",
+    "rating": 4.9,
+    "description": "Pulover călduros cu model inimi jacquard.",
+    "longDescription": "Guler semi-turtă, manșete și talie rib. Fără mâncărimi la piele.",
+    "stock": 23,
+    "sku": "PKW-FT-PUL-021",
+    "badges": [
+      "Popular",
+      "Reducere"
+    ],
+    "reviews": [
+      {
+        "author": "Simona G.",
+        "text": "Foarte călduros, calitate bună.",
+        "stars": 5
+      }
+    ],
+    "careInstructions": "Spălare program lână, uscare la orizontal.",
+    "similarIds": [
+      3,
+      1,
+      10
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Pantaloni scurți denim elastic",
+    "category": "Baieti",
+    "color": "Indigo",
+    "colors": [
+      "Indigo",
+      "Albastru deschis",
+      "Negru"
+    ],
+    "sizes": [
+      "4-5 ani",
+      "6-7 ani",
+      "8-9 ani",
+      "10-12 ani"
+    ],
+    "material": "Denim & elastan",
+    "season": "Vară",
+    "price": 68,
+    "oldPrice": null,
+    "image": "https://images.unsplash.com/photo-1617127365659-a21df74782f8?w=400",
+    "imageLarge": "https://images.unsplash.com/photo-1617127365659-a21df74782f8?w=1000",
+    "rating": 4.6,
+    "description": "Șort denim moale cu talie reglabilă.",
+    "longDescription": "Aspect vintage ușor, buzunare față și spate, cusături întărite.",
+    "stock": 31,
+    "sku": "PKW-BT-DNM-022",
+    "badges": [
+      "Nou"
+    ],
+    "reviews": [
+      {
+        "author": "Bogdan F.",
+        "text": "Elastici confortabili la talie.",
+        "stars": 4
+      }
+    ],
+    "careInstructions": "Spălare separat primele purtări.",
+    "similarIds": [
+      13,
+      7,
+      4
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Costum de baie întreg UV",
+    "category": "Fete",
+    "color": "Corai",
+    "colors": [
+      "Corai",
+      "Turcoaz",
+      "Galben"
+    ],
+    "sizes": [
+      "2-3 ani",
+      "4-5 ani",
+      "6-7 ani",
+      "8-9 ani"
+    ],
+    "material": "Lycra cu protecție UV50+",
+    "season": "Vară",
+    "price": 125,
+    "oldPrice": 145,
+    "image": "https://images.unsplash.com/photo-1530549387789-4cc10159b54a?w=400",
+    "imageLarge": "https://images.unsplash.com/photo-1530549387789-4cc10159b54a?w=1000",
+    "rating": 4.9,
+    "description": "Costum de baie cu mânecă scurtă și protecție solară.",
+    "longDescription": "Uscare rapidă, cusături plate, fermoar spate cu protecție piele.",
+    "stock": 20,
+    "sku": "PKW-FT-BAI-023",
+    "badges": [
+      "Nou",
+      "Popular",
+      "Reducere"
+    ],
+    "reviews": [
+      {
+        "author": "Dana O.",
+        "text": "Liniște la plajă, pielea e protejată.",
+        "stars": 5
+      }
+    ],
+    "careInstructions": "Clătire după fiecare utilizare în apă sărată.",
+    "similarIds": [
+      1,
+      10,
+      11
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Botosei bebe din piele moale",
+    "category": "Bebelusi",
+    "color": "Bej",
+    "colors": [
+      "Bej",
+      "Roz",
+      "Albastru"
+    ],
+    "sizes": [
+      "2-3 ani"
+    ],
+    "material": "Piele naturală",
+    "season": "Primăvară / Toamnă",
+    "price": 110,
+    "oldPrice": null,
+    "image": "https://images.unsplash.com/photo-1596870230751-8f245ce34d78?w=400",
+    "imageLarge": "https://images.unsplash.com/photo-1596870230751-8f245ce34d78?w=1000",
+    "rating": 4.8,
+    "description": "Botosei primii pași, talpă flexibilă antiderapantă.",
+    "longDescription": "Căptușeală bumbac, închidere velcro laterală, cusături exterioare.",
+    "stock": 16,
+    "sku": "PKW-BB-BOT-024",
+    "badges": [
+      "Popular"
+    ],
+    "reviews": [
+      {
+        "author": "Raluca M.",
+        "text": "Ușori, bebelușul merge mai sigur.",
+        "stars": 5
+      }
+    ],
+    "careInstructions": "Ștergere cu piele umedă, crema specială piele.",
+    "similarIds": [
+      8,
+      15,
+      16
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Bandană reversibilă",
+    "category": "Accesorii",
+    "color": "Print floral",
+    "colors": [
+      "Print floral",
+      "Dungi",
+      "Stele"
+    ],
+    "sizes": [
+      "2-3 ani",
+      "4-5 ani",
+      "6-7 ani"
+    ],
+    "material": "Bumbac dublu strat",
+    "season": "Vară",
+    "price": 32,
+    "oldPrice": 40,
+    "image": "https://images.unsplash.com/photo-1529776176325-e3022ac2c9e4?w=400",
+    "imageLarge": "https://images.unsplash.com/photo-1529776176325-e3022ac2c9e4?w=1000",
+    "rating": 4.5,
+    "description": "Bandană triunghiulară, două fețe diferite.",
+    "longDescription": "Snur reglabil la ceafă, potrivită și ca prosop ușor.",
+    "stock": 45,
+    "sku": "PKW-AC-BND-025",
+    "badges": [
+      "Reducere"
+    ],
+    "reviews": [
+      {
+        "author": "Teo P.",
+        "text": "Drăguță, se potrivește la multe ținute.",
+        "stars": 4
+      }
+    ],
+    "careInstructions": "Spălare 40°C.",
+    "similarIds": [
+      19,
+      17,
+      6
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Compleu trening cu fermoar",
+    "category": "Baieti",
+    "color": "Navy",
+    "colors": [
+      "Navy",
+      "Gri antracit",
+      "Roșu"
+    ],
+    "sizes": [
+      "4-5 ani",
+      "6-7 ani",
+      "8-9 ani",
+      "10-12 ani"
+    ],
+    "material": "Poliester tehnic",
+    "season": "Primăvară / Toamnă",
+    "price": 155,
+    "oldPrice": 189,
+    "image": "https://images.unsplash.com/photo-1565084888289-32e0b3c0d41c?w=400",
+    "imageLarge": "https://images.unsplash.com/photo-1565084888289-32e0b3c0d41c?w=1000",
+    "rating": 4.9,
+    "description": "Bluză și pantalon coordonate, fermoar integral.",
+    "longDescription": "Ideal pentru sport sau aer liber, buzunare cu fermoar la bluză.",
+    "stock": 14,
+    "sku": "PKW-BT-CMP-026",
+    "badges": [
+      "Nou",
+      "Reducere",
+      "Popular"
+    ],
+    "reviews": [
+      {
+        "author": "Florin A.",
+        "text": "Calitate sport premium.",
+        "stars": 5
+      }
+    ],
+    "careInstructions": "Spălare 30°C, nu călcați printul.",
+    "similarIds": [
+      7,
+      13,
+      5
+    ]
+  }
+]
